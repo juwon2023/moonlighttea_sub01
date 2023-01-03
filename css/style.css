@@ -1,0 +1,143 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #1e092a;}
+
+#header{width: 100%; height: 610px;
+    background: url(../images/bg.jpg) no-repeat; background-size: cover;}
+    .header_inner{margin: 0 auto; width: 1320px; height: 100%; box-sizing: border-box; overflow: hidden; text-align: center; position: relative;}
+
+ 
+    .nav_01{float: left; margin-top: 60px; }
+    .nav_01 li{float: left;}
+    .nav_01 li a{display: block; font-size: 24px; color: #f5e9e2;
+        font-family: 'Noto Serif KR', serif; padding: 0 95px;}
+    .nav_01 li a:hover{text-shadow: -5px 0px 15px rgb(255, 251, 248, 0.8);}
+    /*메뉴 1*/
+
+    .nav_02{float: right; margin-top: 60px; }
+    .nav_02 li{float: left;}
+    .nav_02 li a{display: block; font-size: 24px; color: #f5e9e2; font-family: 'Noto Serif KR', serif; padding: 0 95px;}/*메뉴 2*/
+    .nav_02 li a:hover{text-shadow: -5px 0px 15px rgb(255, 251, 248, 0.8);}
+    
+
+    .logo{display: block; position: absolute; top: 16px; left: 50%;     margin-left: -31px;} /*로고*/
+
+    /* .logo img{margin-top: -46px;} 로고 */
+
+    .brand h1{clear: both; color: #f5e9e2; font-size: 30px;}
+    .brand{font-family: 'Noto Sans KR', sans-serif; margin-top: 307px;}
+    .brand p{margin-top: 36px; font-size: 16px; color: #f5e9e2;}
+
+/*header f*/
+
+#con1{width: 100%; height: 375px; background: url(../images/bg2.jpg) no-repeat top center; background-size: cover; text-align: center; color: #f5e9e2; font-family: 'Noto Sans KR', sans-serif; padding: 127px 0; box-sizing: border-box;}
+
+.en{font-family: 'Noto Serif KR', serif; font-weight: lighter; font-style: italic;}
+
+#con1 h4{font-size: 25px; margin: 5px 0 10px 0;}
+
+/* con1 f */
+
+/* con2 s */
+
+#con2{width: 100%; height: 786px;}
+.con2_inner{width: 1320px; height: 100%; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; font-size: 24px; text-align: center; box-sizing: border-box; color: #f5e9e2;
+padding: 134px 0 0 0;}
+
+.con2_inner h2{color: #341745; font-size: 30px; letter-spacing: -2px; line-height: 30px; margin: 0 0 125px 0;}
+
+.con2ul li{float: left; position: relative;}
+.con2ul li:nth-child(2){margin: 0 75px;}
+
+.con2_box{height: 320px; width: 100%;
+    position: absolute; top: 0;
+     /* left: 50%; */
+    opacity: 1;  color: rgb(245, 233, 226, 0);
+border-radius: 30px; padding: 100px 0; box-sizing: border-box;}
+
+.con2ul li:hover .con2_box{opacity: 1; transition:all 0.5s; color: rgb(245, 233, 226,1); background-color: rgba(52, 23, 69, 0.5);}
+
+
+.title{margin: 2px 0 9px 0;}
+.r_text{font-size: 15px;}
+
+/* con2 f */
+
+/* con3 s */
+
+#con3{width: 100%; height: 1575px;}
+.con3_inner{width: 1320px; height: 100%; margin: 0 auto; text-align: center; color: #341745; font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box; overflow: hidden;}
+
+.con3_inner h3{font-size: 20px;}
+.con3_inner h2{font-size: 30px; letter-spacing: -2px;}
+.bi_text{font-size: 15px; color: #261f2a; margin: 44px 0 103px 0;}
+.con3_1 img{display: block;}
+
+.color{width: 100%; padding: 103px 0 0 0;}
+.color li{width: 660px; float: left;}
+.color li img{float: left; display: block;}
+.color p{font-size: 20px; color: #341745; font-weight: bold; text-align: left;}
+
+.color_img{margin: 0 15px; padding: 60px 0 0 0; display: block; width: 215px;}
+.bg_img{margin-top: 48px;} /*color BACKGROUND IMAGE */
+.ultext{ letter-spacing: -1px;}
+
+/*OTHER  VERSIONS*/
+.ot{
+    font-size: 20px; color: #341745;
+    font-weight: bold; text-align: left;
+    padding: 89px 0 0 0;
+    letter-spacing: -1px;
+    clear: both;
+}
+
+.other{margin: 89px 0; height: 307px;}
+
+
+.other li{float: left;}
+.other li img{display: block;}
+.other li:nth-child(2){margin: 0 30px;}
+.other li:nth-child(3){margin: 0 30px; padding-top: 151px;}
+.other li:nth-child(4){padding-top: 151px;}
+
+
+
+/* con3 f */
+
+/* teatime s */
+
+#teatime{ width: 100%; height: 241px; background: url('../images/ttu.jpg') no-repeat top center; text-align: center; padding: 90px 0; box-sizing: border-box;}
+#teatime p{font-size: 40px; font-family: 'Noto Serif KR', serif; color: #f1e8fb; font-weight: bold; font-style: italic;}
+
+/* teatime f */
+
+/* con4 s */
+
+#con4{width: 100%;}
+.con4_inner{width: 1320px; height: 513px; margin: 125px auto; text-align: center; font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box; overflow: hidden;}
+.con4_inner h2{line-height: 30px; letter-spacing: -2px; color: #341745; font-size: 30px;}
+
+.cv{width: 100%; margin-top: 77px;}
+.cv li{float: left; border: #341745 3px solid; border-radius: 30px; width: 30%; height: 375px; padding-top: 58px; box-sizing: border-box;}
+.cv li:nth-child(1){padding-top: 70px;}
+.cv li:nth-child(2){padding-top: 70px;}
+
+.core_2{margin: 0 5%;}
+.core_t1{font-weight: bold; color: #341745; font-size: 16px;
+margin: 26px 0 18px 0;}
+.core_t2{font-size: 15px; color: #261f2a;}
+/*  con4 f */
+
+/*푸터 s */
+#footer{width: 100%; height: 338px; background: url(../images/footer.jpg) no-repeat; background-size: cover; font-family: 'Noto Sans KR', sans-serif; overflow: hidden;}
+.footer_inner{width: 1320px; margin: 0 auto; padding-top: 68.5px;}
+.ft_left{float: left; width: 385px; height: 100%;}
+.f_logo{float: left; display: block; margin-right: 39px;}
+.f_text{float: right; width: 220px;
+        color: #ffffff; font-size: 13px; line-height: 26px; margin-top: 39.5px;}
+
+.ft_right{float: right; padding-top: 130px;}
+.insta{margin: 0 10px;}
+
+
+
